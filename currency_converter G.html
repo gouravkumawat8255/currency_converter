@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Currency Converter</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Currency Converter</h1>
+    <div class="converter">
+      <input type="number" id="amount" placeholder="Amount">
+      <select id="fromCurrency">
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="JPY">JPY</option>
+        <!-- Add more currency options here -->
+      </select>
+      <span class="arrow">➡️</span>
+      <select id="toCurrency">
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="JPY">JPY</option>
+        <!-- Add more currency options here -->
+      </select>
+      <button id="convertBtn">Convert</button>
+    </div>
+    <div class="result">
+      <p id="convertedAmount">Converted amount will appear here</p>
+    </div>
+     
+  </div>
+  <script src="script.js"></script>
+  <footer>
+    <p style="color: black; font-size: large;font-style: italic;"> <b>  by Gourav Silwadiya </b></p>
+  </footer>
+</body>
+</html>
